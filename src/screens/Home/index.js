@@ -1,12 +1,16 @@
+import * as styles from './Home.scss';
 
 export class Home {
   constructor (props) {
     this.props = props;
+    document.title = 'Home';
   }
 
   render () {
     return (
-      `<h1>${this.props.title}<h1>`
+      `<section class="${styles.section}">
+        <h1 class="${styles.title}">Hello</h1>
+      </section>`
     );
   }
 }

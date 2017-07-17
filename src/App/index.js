@@ -9,7 +9,7 @@ export class App {
       ...options
     };
 
-    this.props.dom.innerHTML = 'Loading from github...';
+    this.props.dom.innerHTML = 'Loading...';
   }
 
   render() {
